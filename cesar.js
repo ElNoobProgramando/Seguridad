@@ -65,12 +65,12 @@ var cesar = cesar || (function(){
 
 function cifrar(){
     document.getElementById("resultado").innerHTML =
-    cesar.encode(document.getElementById("cadena").value, 3);
+    cesar.encode(document.getElementById("xd").value, 3);
 }
 
 //funcion de descifrado
 
 function descifrar(){
     document.getElementById("resultado").innerHTML =
-    cesar.decode(document.getElementById("cadena").value, 3);
+    cesar.decode(document.getElementById("xd").value, 3);
 }
